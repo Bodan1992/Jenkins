@@ -1,7 +1,6 @@
 from selene import have, by
 from selene.core import command
 from selene.support.shared.jquery_style import s
-
 from demoqa_test.controls.utils import resource
 
 

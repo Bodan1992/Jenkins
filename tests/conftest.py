@@ -6,7 +6,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from dotenv import load_dotenv
 from demoqa_test.controls import attach
-from selene import Browser, Config
 
 
 @pytest.fixture(scope='function', autouse=True)
